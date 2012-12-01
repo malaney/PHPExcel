@@ -15,5 +15,8 @@
   "require": {
     "php": ">=5.2.6"
   },
-  "target-dir": "PHPExcel"
+  "target-dir": "PHPExcel",
+    "autoload": {
+        "files": ["PHPExcel.php"]
+    }
 }

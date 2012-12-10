@@ -17,6 +17,6 @@
   },
   "target-dir": "PHPExcel",
     "autoload": {
-        "files": ["PHPExcel/PHPExcel.php"]
+        "files": ["PHPExcel/PHPExcel.php", "PHPExcel/Settings.php"]
     }
 }

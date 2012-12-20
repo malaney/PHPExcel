@@ -1,7 +1,7 @@
 {
   "name": "obverse/php-excel",
   "description": "Obverse Fork of PHP Excel Library",
-  "keywords": ["excel"],
+  "keywords": ["PHP", "excel", "OpenXML", "Spreadsheet"],
   "homepage": "http://github.com/malaney/PHPExcel",
   "type": "library",
   "license": "MIT",
@@ -13,9 +13,12 @@
     }
   ],
   "require": {
-    "php": ">=5.2.6",
-    "ext-gd": *,
-    "ext-xml": *
+    "php": ">=5.2.0",
+    "ext-xml": "*"
+  },
+ "recommend": {
+    "ext-gd": "*",
+    "ext-zip": "*"
   },
   "target-dir": "PHPExcel",
     "autoload": {
